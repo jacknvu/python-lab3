@@ -15,19 +15,26 @@ Write a script to resize an existing file
   - ex: p1 = subprocess.run('ls -l', shell=True, capture_output=True, text=True)
 7. optional: script to validate input arguments, check for null (or zero length) input
 8. Sample execution:
-$ ./resize3.py 
-enter sub dir:lab3
-enter existing filename:testfile1
-ls -l lab3/testfile1
--rw-r--r-- 1 pi pi 1048576 Jun  7 21:34 lab3/testfile1
-
+<pre>
+  $ ./resize3.py 
+  enter sub dir:lab3
+  enter existing filename:testfile1
+  ls -l lab3/testfile1
+  -rw-r--r-- 1 pi pi 1048576 Jun  7 21:34 lab3/testfile1
+</pre>
 
 
 **Log in instructions:**
 
 1. log in to host 192.168.1.42 as use pi, run from Mac window:  ssh -l pi 192.168.1.42
 2. enter password
-3. make your own work subdirectory, ex:  mkdir jvu.d; cd jvu.d and put the python script in this subdirectory
+3. make your own work subdirectory, ex:  
+<pre>
+    mkdir jvu.d
+    cd jvu.d
+    mkdir lab3
+</pre>
+4. and put the python script in this lab3 subdirectory
 
 **Part2**
 
