@@ -5,6 +5,7 @@ Write a script to resize an existing file
 **Part1**
 
 1. create a 1MB file (ex: testfile1) using Linux command **truncate** in a subdirectory called lab3
+- ex: truncate -s 1M testfile1
 2. run: man truncate (to read manual pages)
 3. write a Python script to resize the file
 4. input the directory name, file name, and new file size
@@ -13,6 +14,14 @@ Write a script to resize an existing file
   - Reference:  https://www.youtube.com/watch?v=2Fp1N6dof0Y
   - ex: p1 = subprocess.run('ls -l', shell=True, capture_output=True, text=True)
 7. optional: script to validate input arguments, check for null (or zero length) input
+8. Sample execution:
+$ ./resize3.py 
+enter sub dir:lab3
+enter existing filename:testfile1
+ls -l lab3/testfile1
+-rw-r--r-- 1 pi pi 1048576 Jun  7 21:34 lab3/testfile1
+
+
 
 **Log in instructions:**
 
