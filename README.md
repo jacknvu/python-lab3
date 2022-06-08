@@ -11,14 +11,14 @@ Write a script to resize an existing file
 5. list the existing file using "ls -l" command
 6. resize file (ex: testfile1 in lab3 subdirectory) to 2MB (using truncate command)
   - Reference:  https://www.youtube.com/watch?v=2Fp1N6dof0Y
-  - ex: subprocess.run('ls -l', shell=true, capture_output=true, text=true)
-8. script to validate input arguments, check for null (or zero length) input
+  - ex: p1 = subprocess.run('ls -l', shell=True, capture_output=True, text=True)
+7. optional: script to validate input arguments, check for null (or zero length) input
 
 **Log in instructions:**
 
-1. log in to host 192.168.1.42 as pi:  ssh -l pi 192.168.1.42
+1. log in to host 192.168.1.42 as use pi, run from Mac window:  ssh -l pi 192.168.1.42
 2. enter password
-3. make your own subdirectory, ex:  mkdir jvu.d; cd jvu.d and put the python script in this subdirectory
+3. make your own work subdirectory, ex:  mkdir jvu.d; cd jvu.d and put the python script in this subdirectory
 
 **Part2**
 
