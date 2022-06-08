@@ -26,7 +26,7 @@ Write a script to resize an existing file
 
 **Log in instructions:**
 
-1. log in to host 192.168.1.42 as use pi, run from Mac window:  ssh -l pi 192.168.1.42
+1. log in to host 192.168.1.42 as user pi, run from Mac window:  ssh -l pi 192.168.1.42
 2. enter password
 3. make your own work subdirectory, ex:  
 <pre>
